@@ -49,5 +49,8 @@ iptables -A INPUT -i lo -j ACCEPT
 iptables -A INPUT -s ${exam_ip} -j ACCEPT
 iptables -P INPUT DROP # Drop everything we don't accept
 
-# lock the root user
-passwd -l root
+echo "${exam_ip} moodle.dev" >> /etc/hosts
+
+# set a password for the root
+# TODO: lock it
+echo "root:guenggakganteng" | chpasswd

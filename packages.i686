@@ -11,8 +11,6 @@ gptfdisk
 grml-zsh-config
 grub
 iptables
-ipw2100-fw
-ipw2200-fw
 irssi
 lftp
 lsscsi
@@ -39,8 +37,6 @@ vim-minimal
 wget
 xl2tpd
 xorg-server
-virtualbox-guest-utils
-virtualbox-guest-modules-arch
 unzip
 zip
 tar
